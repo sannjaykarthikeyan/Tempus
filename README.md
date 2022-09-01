@@ -1,7 +1,5 @@
 # Tempus
 
-A minimalist yet appealing take on the digital clock.
-
 Tempus is a Digital Clock Application for android devices. Based on the system UIs in Google Assistant Smart Clocks, Tempus features 4 clockfaces:
 
 • Mono - Based on the light mode version of the "Mono" clockface on Google Assistant equipped Smart Clocks.

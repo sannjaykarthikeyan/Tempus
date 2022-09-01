@@ -18,7 +18,6 @@ Tempus is a Digital Clock Application for android devices. Based on the system U
 
 
 Tempus also features a functioning alarm clock as well as local weather details. Swipe between each panel to access each of Tempus' features.
-![Weather (Tablet)](https://user-images.githubusercontent.com/71292161/187811762-fdc6bfa3-4bae-4369-9e60-032c67153976.png)
 
 Downloads:
 [Tempus APK](https://drive.google.com/drive/folders/1u5ZfiqptxsoI6rinVi9E1TxhlzO0Zre2?usp=sharing)

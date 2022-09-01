@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".LightsOut">
+
+    <TextView
+        android:id="@+id/temperature4"
+        android:layout_width="79dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/productsansregular"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043">
+
+    </TextView>
+
+    <DigitalClock
+        android:id="@+id/dc3"
+        android:layout_width="486dp"
+        android:layout_height="212dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/productsansregular"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="200sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/weatherIcon3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/finding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/settings3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/sidebarmenu"
+        android:contentDescription="@string/app_name"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+</androidx.constraintlayout.widget.ConstraintLayout>

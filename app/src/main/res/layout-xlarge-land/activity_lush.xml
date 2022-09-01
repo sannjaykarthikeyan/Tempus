@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="textStart"
+    tools:context=".Lush">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="1920dp"
+        android:layout_height="1080dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/lushxlarge" />
+
+    <Button
+        android:id="@+id/settings2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/whitesidebarmenu"
+        android:contentDescription="@string/app_name"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <TextView
+        android:id="@+id/cityName2"
+        android:layout_width="242dp"
+        android:layout_height="62dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingStart="30sp"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833"
+        tools:layout_conversion_absoluteHeight="53dp"
+        tools:layout_conversion_absoluteWidth="731dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/weatherIcon2"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/finding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/weatherCondition2"
+        android:layout_width="265dp"
+        android:layout_height="90dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingStart="30sp"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.969"
+        tools:layout_conversion_absoluteHeight="40dp"
+        tools:layout_conversion_absoluteWidth="731dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/temperature2"
+        android:layout_width="240dp"
+        android:layout_height="227dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:flow_verticalAlign="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/date2"
+        android:layout_width="914dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="156dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Monday, August 22nd, 2022"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <DigitalClock
+        android:id="@+id/dc"
+        android:layout_width="961dp"
+        android:layout_height="231dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="95sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

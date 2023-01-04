@@ -26,6 +26,6 @@ Credits:
 
 • https://github.com/Brijesh-kumar-sharma/WeatherAppInAndroidStudio - Source code from this project was used to receive weather information based on the user's current location.
 
-• https://gist.github.com/codinginflow/a26b41c07c1c2373f6aa92726ae92018 - Source code from this repow as used to build the alarm function
+• https://gist.github.com/codinginflow/a26b41c07c1c2373f6aa92726ae92018 - Source code from this repository as used to build the alarm function
 
 • wallpaperhub.com - Wallpapers from this website were used in the "Lush" and "Alta" clockfaces.
